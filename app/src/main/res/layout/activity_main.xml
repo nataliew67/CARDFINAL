@@ -7,8 +7,8 @@
     tools:context=".MainActivity">
 
     <RelativeLayout
-        android:layout_width="409dp"
-        android:layout_height="730dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="#EFEFEF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -48,7 +48,7 @@
 
             <TextView
                 android:id="@+id/debitcard"
-                android:layout_width="141dp"
+                android:layout_width="81dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="268dp"
                 android:layout_marginTop="20dp"
@@ -61,7 +61,7 @@
 
             <TextView
                 android:id="@+id/visa"
-                android:layout_width="74dp"
+                android:layout_width="34dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="315dp"
                 android:layout_marginTop="160dp"
@@ -87,9 +87,10 @@
                 android:textSize="18sp"
                 />
 
+
             <TextView
                 android:id="@+id/namenumber2"
-                android:layout_width="106dp"
+                android:layout_width="59dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="290dp"
                 android:layout_marginTop="45dp"
@@ -97,8 +98,6 @@
                 android:text="XX/XX"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
-
-
 
             <TextView
                 android:id="@+id/balancenum"
@@ -130,7 +129,7 @@
             android:layout_width="350dp"
             android:layout_height="48dp"
             android:layout_alignLeft="@+id/view4"
-            android:layout_marginLeft="-2dp"
+            android:layout_marginLeft="30dp"
             android:layout_marginTop="960px"
             android:ems="10"
             android:fontFamily="sans-serif-condensed-light"
@@ -143,7 +142,7 @@
             android:layout_width="150dp"
             android:layout_height="48dp"
             android:layout_alignLeft="@+id/view4"
-            android:layout_marginLeft="0dp"
+            android:layout_marginLeft="30dp"
             android:layout_marginTop="520dp"
             android:ems="10"
             android:fontFamily="sans-serif-condensed-light"
@@ -172,6 +171,7 @@
             android:layout_alignLeft="@+id/view4"
             android:layout_marginTop="1160px"
             android:ems="10"
+            android:layout_marginLeft="30dp"
             android:fontFamily="sans-serif-condensed-light"
             android:inputType="text"
             android:hint="Your card number"
@@ -179,27 +179,25 @@
             android:textSize="14sp" />
 
 
-
-
         <TextView
             android:id="@+id/namec"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/view4"
+            android:layout_marginLeft="30dp"
             android:layout_marginTop="340dp"
             android:fontFamily="sans-serif-condensed-light"
             android:text="Name on card"
             android:textColor="@color/black"
-            android:textSize="18sp"
 
-            />
-
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/namec2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/view4"
+            android:layout_marginLeft="30dp"
             android:layout_marginTop="418dp"
             android:fontFamily="sans-serif-condensed-light"
             android:text="Card Number"
@@ -214,6 +212,7 @@
             android:layout_marginTop="492dp"
             android:fontFamily="sans-serif-condensed-light"
             android:text="Exp Date"
+            android:layout_marginLeft="30dp"
             android:textColor="@color/black"
             android:textSize="18sp" />
 
