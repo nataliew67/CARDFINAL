@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -118,7 +120,7 @@
             android:layout_width="311dp"
             android:layout_height="60dp"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="600dp"
+            android:layout_marginTop="650dp"
             android:backgroundTint="#42427E"
             android:text="Add New Card"
             app:cornerRadius="20dp" />
@@ -260,5 +262,7 @@
 
 
 
+
     </RelativeLayout>
+</ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
